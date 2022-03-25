@@ -3,10 +3,11 @@
 }
 
 .navbar-wrapper {
+    height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 0px 20px;
 }
 
 .navbar-left {
@@ -17,9 +18,13 @@
 
 .navbar-center {
     flex: 1;
+    text-align: center;
 }
 
 .navbar-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
     flex: 1;
 }
 
@@ -31,11 +36,21 @@
 .search-container {
     display: flex;
     align-items: center;
-    border: 1px solid lightgray;
+    border: 0.5px solid lightgray;
     margin-left: 25px;
     padding: 5px;
 }
 
 .navbar-input {
     border: none;
+}
+
+.navbar-logo {
+    font-weight: bold;
+}
+
+.navbar-menu-item {
+    font-size: 14px;
+    margin-left: 25px;
+    cursor: pointer;
 }

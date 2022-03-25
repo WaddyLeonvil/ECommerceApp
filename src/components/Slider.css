@@ -3,24 +3,52 @@
     height: 100vh;
     display: flex;
     position: relative;
+    overflow: hidden;
 }
 
 .slider-wrapper {
     height: 100%;
-
+    display: flex;
+    transition: all 1.5s ease;
 }
 
 .slide {
+    width: 100vw;
+    height: 100vh;
     display: flex;
     align-items: center;
 }
 
 .slider-img-container {
-
+    height: 100%;
+    flex: 1;
 }
 
-.slider-info-container {
+.slider-img {
+    height: 80%;
+} 
 
+.slider-info-container {
+    flex: 1;
+    padding: 50px;
+}
+
+.slider-title {
+    font-size: 70px;
+}
+
+.slider-desc {
+    margin: 50px 0px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+.slider-btn {
+    padding: 10px;
+    font-size: 20px;
+    background-color: transparent;
+    cursor: pointer;
 }
 
 .slider-arrow {
@@ -37,6 +65,7 @@
     margin: auto;
     cursor: pointer;
     opacity: 0.5;
+    z-index: 2;
 }
 
 #arrow-left {

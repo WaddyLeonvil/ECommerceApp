@@ -9,6 +9,7 @@ export default function Navbar() {
             <div className="navbar-left">
                 <span className="language">EN</span>
                 <div className="search-container">
+                    <input type="text" className='navbar-input' />
                     <Search />
                 </div>
             </div>

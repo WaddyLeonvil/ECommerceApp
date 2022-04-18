@@ -23,7 +23,7 @@ export default function Slider() {
             </div>
             <div className="slider-wrapper" style={{transform: `translateX(${slideIndex * -100}vw)`}}>
                 {sliderItems.map((item) => (
-                    <div className="slide" style={{backgroundColor: `#${item.bg}`}}>
+                    <div className="slide" style={{backgroundColor: `#${item.bg}`}} key={item.id}>
                         <div className="slider-img-container">
                             <img src={item.img} alt='First' className='slider-img'/>
                         </div>

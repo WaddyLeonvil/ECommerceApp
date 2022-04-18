@@ -4,7 +4,7 @@ import './Announcement.css';
 export default function Announcement() {
     return (
         <div className="announcement-container">
-            Unga Bunga Deal Today! Free Shipping!!
+            New Special Deal Today! Free Shipping!!
         </div>
     )
 }

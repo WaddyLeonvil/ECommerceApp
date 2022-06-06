@@ -10,3 +10,8 @@
 .filter {
     margin: 20px;
 }
+
+.filter-text {
+    font-style: 20px;
+    font-weight: 600;
+}
